@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "DelegateHandler",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "DelegateHandler",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/DelegateHandler/bin/Debug/net7.0/DelegateHandler.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DelegateHandler",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "MiddlewareSample",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "MiddlewareSample",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/MiddlewareSample/bin/Debug/net7.0/MiddlewareSample.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/MiddlewareSample",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "MultipleMiddlewareSample",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "MultipleMiddlewareSample",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/MultipleMiddlewareSample/bin/Debug/net7.0/MultipleMiddlewareSample.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/MultipleMiddlewareSample",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

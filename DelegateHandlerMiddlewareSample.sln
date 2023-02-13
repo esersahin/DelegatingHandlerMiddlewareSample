@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareSample", "MiddlewareSample\MiddlewareSample.csproj", "{18205CB1-A43F-493C-A106-C52BAD705E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateHandler", "DelegateHandler\DelegateHandler.csproj", "{2AA9DD3D-2A1A-4342-9AC1-3AC4C24B860D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleMiddlewareSample", "MultipleMiddlewareSample\MultipleMiddlewareSample.csproj", "{C4D73DEA-EA27-4D27-9862-27253E87093C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18205CB1-A43F-493C-A106-C52BAD705E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18205CB1-A43F-493C-A106-C52BAD705E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18205CB1-A43F-493C-A106-C52BAD705E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18205CB1-A43F-493C-A106-C52BAD705E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA9DD3D-2A1A-4342-9AC1-3AC4C24B860D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA9DD3D-2A1A-4342-9AC1-3AC4C24B860D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA9DD3D-2A1A-4342-9AC1-3AC4C24B860D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA9DD3D-2A1A-4342-9AC1-3AC4C24B860D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D73DEA-EA27-4D27-9862-27253E87093C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D73DEA-EA27-4D27-9862-27253E87093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D73DEA-EA27-4D27-9862-27253E87093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D73DEA-EA27-4D27-9862-27253E87093C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

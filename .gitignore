@@ -1,0 +1,8 @@
+# .NET Core
+bin
+obj
+packages
+
+# JetBrains Rider
+.idea/
+*.sln.iml
