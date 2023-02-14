@@ -58,7 +58,9 @@ static Func<RequestContext, Task> LogMiddleware(Func<RequestContext, Task> next)
 {
     return async context =>
     {
+        Console.WriteLine("LogMiddleware: Before");
         await next(context);
+        Console.WriteLine("LogMiddleware: After");
     };
 }
 
@@ -68,7 +70,9 @@ static Func<RequestContext, Task> ExceptionMiddleware(Func<RequestContext, Task>
     {
         try
         {
+            Console.WriteLine("ExceptionMiddleware: Before");
             await next(context);
+            Console.WriteLine("ExceptionMiddleware: After");
         }
         catch (Exception e)
         {
